@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.scss';
 import App from './containers/App/index';
-import { store } from './app/store';
+
+import store from './app';
 import { Provider } from 'react-redux';
 
 ReactDOM.render(
